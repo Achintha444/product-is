@@ -15,7 +15,7 @@ env:
   PRODUCT_REPOSITORY_PUBLIC: wso2/$REPOSITORY
   BUILD_NUMBER: ${{github.run_id}}
   DEPENDENCY_UPGRADE_BRANCH_NAME: IS_dependency_updater_github_action/$BUILD_NUMBER
-  PR: "https://github.com/wso2/product-is/pulls"
+  PR: "https://github.com/Achintha444/product-is/pulls"
 
 jobs:
   build:
